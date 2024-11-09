@@ -7,7 +7,7 @@
 ### (Disable the 'Show notification when download completes' setting in Chrono Download Manager for ease.)
 
 ## Deploy:
-** Upload everything in this repo to www folder of your server. (for Xmapp put files in 'htdocs') **
+**Upload everything in this repo to www folder of your server. (for Xmapp put files in 'htdocs')**
 
 ## Downloading:
 Browse your local/remote server's http://XXXXXXXX/index.php
