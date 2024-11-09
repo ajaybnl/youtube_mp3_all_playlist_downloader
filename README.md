@@ -35,4 +35,10 @@ Once all downloads are complete, the script will display **"All Files Downloaded
   A record of completed downloads is saved in a file named `downloaded_urls_[SESSION_ID].txt`.
 
 - **Automatic Skip**:  
-  Previousl
+  Previously downloaded URLs are skipped if they appear in future playlists. Note that this feature only works within the same browser or device due to cookie-based storage.
+
+> **Note**: If using a different device or browser, a new unique cookie ID will be generated, and previously downloaded URLs won’t be recognized.
+
+---
+
+Happy downloading! 🎉
