@@ -1,33 +1,38 @@
-# playlist_downloader
-### Youtube playlist to mp3 files downloader (Download multiple Mp3 files at once)
+# 🎶 Playlist Downloader
 
+### Convert YouTube Playlists to MP3 Files with Ease!  
+*Download multiple MP3 files at once directly from YouTube playlists.*
 
-## You need: 
- Local / Raspberry / Remote Php Server (Xmapp or Easyphp)
- (Optional) Browser Extention for unintrupted downloads: Chrono Download Manager For Chrome
-(Disable the 'Show notification when download completes' setting in Chrono Download Manager for ease.)
+---
 
+## 🌟 Requirements
+- **Local / Raspberry Pi / Remote PHP Server** (e.g., XAMPP or EasyPHP)
+- **(Optional)**: For uninterrupted downloads, use [Chrono Download Manager for Chrome](https://chrome.google.com/webstore/detail/chrono-download-manager/), and disable *"Show notification when download completes"* for a seamless experience.
 
-## Deploy:
-Upload everything in this repo to www folder of your server. (for Xmapp put files in 'htdocs')
+---
 
+## 🚀 Deployment
+1. Upload all files in this repository to your server's `www` folder.  
+   - For XAMPP, place files in the `htdocs` folder.
+   
+---
 
+## 📥 Downloading
+1. Open your server’s URL in a browser: `http://[YOUR_SERVER_ADDRESS]/index.php`.
+2. Enter the YouTube playlist URL in the textbox and click **Download**.
 
-## Downloading:
-Browse your local/remote server's http://XXXXXXXX/index.php
-> You will see a Textbox, fill youtube playlist url, and click 'Download'.
+> The download process will begin, with each video in the playlist converted to an MP3 file on your browser.  
+> A progress bar will indicate the download status for each playlist item.
 
-It will start downloading all Playlist Urls as Mp3 files on your browser.
-> The progress bar will progress according to playlist urls.
+⚠️ **Important**: When prompted, make sure to allow "multiple downloads" for pop-ups.  
+Once all downloads are complete, the script will display **"All Files Downloaded"** and the progress bar will reach 100%.
 
-_You have to enable 'allow multiple downloads' window when popups.
-after downloads are finished, the script will stop and show 'All Files Downloaded' and progressbar will be at 100%._
+---
 
+## 🤖 Smart Features
+- **Avoid Duplicate Downloads**:  
+  The script keeps track of downloaded URLs. If you refresh or revisit, only the undownloaded URLs will be processed.  
+  A record of completed downloads is saved in a file named `downloaded_urls_[SESSION_ID].txt`.
 
-
-## Smart features: 
-**The script records the downloaded urls** , if you refresh the page then the urls will be not re-download, only which urls have error will be re-downloaded
-it saves all done urls to 'downloaded_urls_XXXXXXX.txt' the last chars are a unique id which was set in your browser cookie.
-
-Normally the script remembers the downloaded urls, if a later downloaded playlist has same urls as some previous playlist, it will skip the already done urls.
-If you download the playlist from another pc or browser, then it will not remember this part because the cookie will be re-generated for it.
+- **Automatic Skip**:  
+  Previousl
