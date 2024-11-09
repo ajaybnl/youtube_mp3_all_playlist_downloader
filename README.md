@@ -12,7 +12,7 @@
 ---
 
 ## 🚀 Deployment
-1. Upload all files in this repository to your server's `www` folder.  
+1. Upload index.php file in this repository to your server's `www` folder.  
    - For XAMPP, place files in the `htdocs` folder.
    
 ---
@@ -39,6 +39,7 @@ Once all downloads are complete, the script will display **"All Files Downloaded
 
 > **Note**: If using a different device or browser, a new unique cookie ID will be generated, and previously downloaded URLs won’t be recognized.
 
+**The file 'folderit.bat' is to move all .mp3 files to a folder 'dlsongs'. Move this file to Downloads folder, after downloading songs, run it to collect all mp3 files in one folder.**
 ---
 
 Happy downloading! 🎉
