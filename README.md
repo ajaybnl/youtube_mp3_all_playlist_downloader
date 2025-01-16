@@ -20,6 +20,7 @@
 ## 📥 Downloading
 1. Open your server’s URL in a browser: `http://[YOUR_SERVER_ADDRESS]/index.php`.
 2. Enter the YouTube playlist URL in the textbox and click **Download**.
+3. Allow Multiple Downloading in Chrome (Popup will come)
 
 > The download process will begin, with each video in the playlist converted to an MP3 file on your browser.  
 > A progress bar will indicate the download status for each playlist item.
